@@ -55,7 +55,7 @@ console.log(totalArea);
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 variables as arguments for the function call
 const result = function (area1, area2, area3) {
-    	console.log(totalRoomsArea(room1, room2, room3);
+    	console.log(totalRoomsArea(room1, room2, room3));
 }
 
 console.log(result);
