@@ -23,8 +23,6 @@ var message = logMessage();
 
 console.log(message);
 
-
-
 /**
  * =============================================================
  * Create a function that works as follows:
@@ -66,7 +64,6 @@ var myName = logMessageWithMyName('Anthony');
 
 console.log(myName);
 
-
 /**
  * ==============================================================
  * Create a function that works as follows:
@@ -87,7 +84,6 @@ function logMyInfo(name, age){
 var myInfo = logMyInfo('Anthony', 31);
 
 console.log(myInfo);
-
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
