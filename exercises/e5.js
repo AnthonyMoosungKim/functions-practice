@@ -21,9 +21,6 @@ function getDiffTwentySeven(num) {
   }
 }
 
-console.log(getDiffTwentySeven(13));
-console.log(getDiffTwentySeven(37));
-
 /** =========================
  * Create a sumOfTwoIntegers(num1, num2) function to compute and return the sum of the two given integers
  * If the two arguments are same, then returns triple their sum.
@@ -40,9 +37,6 @@ function sumOfTwoIntegers(num1, num2) {
     return num1 + num2;
   }
 }
-
-console.log(sumOfTwoIntegers(13, 14));
-console.log(sumOfTwoIntegers(12, 12));
 
 /** =========================
  * Create a isOneOfThemOrTheirSumIsFourty(num1, num2) function to check two given numbers and return a boolean.
@@ -62,10 +56,6 @@ function isOneOfThemOrTheirSumIsFourty(num1, num2) {
     return false;
   }
 }
-
-console.log(isOneOfThemOrTheirSumIsFourty(40, 13));
-console.log(isOneOfThemOrTheirSumIsFourty(22, 18));
-console.log(isOneOfThemOrTheirSumIsFourty(23, 16));
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-5"

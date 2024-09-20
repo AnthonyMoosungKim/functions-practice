@@ -13,9 +13,7 @@ function splitFirstAndLastNames(str) {
   return str.split(' ');
 }
 */
-const splitFirstAndLastNames = (str) => {
-  return str.split(' ');
-}
+const splitFirstAndLastNames = (str) => str.split(' ');
 
 /** =========================
  * The personAge() constant is assigned to a function, that takes an object of person Data as the argument.
@@ -27,9 +25,7 @@ const personAge = function(personObject) {
   return personObject.age;
 }
 */
-const personAge = (personObject) => {
-  return personObject.age;
-}
+const personAge = (personObject) => personObject.age;
 
 /** =========================
  * The isNameInArray function takes an array and string of name as the arguments.
@@ -42,9 +38,7 @@ const isNameInArray = function(arr, name) {
   return arr.includes(name);
 }
 */
-const isNameInArray = (arr, name) => {
-  return arr.includes(name);
-}
+const isNameInArray = (arr, name) => arr.includes(name);
 
 /** =========================
  * The logTimer function takes a number as the arguments.
@@ -66,7 +60,7 @@ const logSecondsUpToMax = function(max) {
 */
 const logSecondsUpToMax = (max) => {
   let i = 0;
-  const timer = setInterval(function() {
+  const timer = setInterval(() => {
     if (i < max) {
       console.log(++i);
     } else {
